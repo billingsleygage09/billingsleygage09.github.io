@@ -19,6 +19,9 @@ nav {
     display: flex;
     padding: 10px;
     margin-bottom: 20px;
+    border: 25px red ridge;
+    height: 30px;
+    border-radius: 50px;
 
 }
 
@@ -28,13 +31,16 @@ h1 {
     color: black;
     flex 1;
     margin: 0;
+    font-size: 30px;
 }
 
 #nav-ul {
     list-style-type: none;
+    align-items: center;
     margin: 0;
     padding: 0;
     display: flex; 
+    font-size: 25px
 }
 
 .nav-li {
@@ -53,10 +59,12 @@ main {
     background: white;
     display: flex;
     margin-top: 20px;
+    border: 25px red ridge;
+    border-radius: 30px;
 }
 
 .sidebar {
-    margin-right: 25px;
+    margin-right: 10px;
     padding: 10px;
 }
 
@@ -71,9 +79,11 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px  black ridge;
+    border: 25px  red ridge;
     padding: 8px;
     margin-top: 20px;
+    font-size: 18px;
+    border-radius: 30px
 }
 
 h2, h3 {
@@ -109,7 +119,7 @@ h2, h3 {
 @media screen and (min-width: 120px)
 and (max-width: 1080px) {
     main{
-        height: 100ch;
+        height: 200ch;
         zoom: 1.5;
         display: grid;
     }
