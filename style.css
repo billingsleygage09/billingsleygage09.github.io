@@ -1,13 +1,15 @@
 body {
     background: lightblue;
-    color: black
+    color: lightblue;
     padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: 
+    
 
 }
 
 #all-contents {
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 
 }
@@ -17,8 +19,10 @@ nav {
     background: black;
     margin:  0 auto;
     display: flex;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
+    border: 25px gray ridge;
+    
 
 }
 
@@ -26,7 +30,7 @@ h1 {
     display:flex;
     align-items: center;
     color: lightblue;
-    flex 1;
+    flex 5;
     margin: 0;
 }
 
@@ -43,16 +47,19 @@ h1 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: lightblue;
+    font-size: 20px;
+    
 
 }
 
 /* main container area beneath menu */
 main {
-    background: lightblue;
+    background: black;
     display: flex;
     margin-top: 20px;
+    border: 25px gray ridge
 }
 
 .sidebar {
@@ -71,7 +78,7 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px  black ridge;
+    border: 25px  gray ridge;
     padding: 8px;
     margin-top: 20px;
 }
@@ -96,12 +103,10 @@ h2, h3 {
     margin-bottom: 10px;
 }
 
-#portfolio li: :hover{
-    background: grey;
-}
+
 
 #portfolio a {
-    text-decoration: none;
+    text-decoration: underline;
     color: lightblue
 }
 gi
